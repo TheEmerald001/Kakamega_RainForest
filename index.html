@@ -9,34 +9,39 @@
 </head>
 <body>
     <nav>
-        <div>
-            WELCOME TO TANA FOREST
+        <div class="welcome">
+            <span class="welcomeSpan">W</span>ELCOME TO TANA FOREST
         </div>
     </nav>
-    <section>
-        <div>
-            <h2>Tutembee Pamoja Kakamega</h2>
-            <div>
-                <h1 class="gradient"></h1>
-                Welcome to The Tropical Kakamega Rain Forest <br>
-                Here, we pride in a variety of rare species of birds, butterflies, monkeys, and trees.
-                Journey with us and cycle through the catalogue as you experience the exquisite views.
-                You may also show cause by donating for your favourite species!
-                To begin with, enter your name and select a trail.
+    <section class="secOne">
+        <div class="main">
+            <div class="leftSide">
+                <h2>Tutembee Pamoja Kakamega</h2>
+                <div>
+                    <h1 class="gradient"></h1>
+                   <span class="desc">
+                        Welcome to The Tropical Kakamega Rain Forest <br>
+                        Here, we pride in a variety of rare species of birds, butterflies, monkeys, and trees.
+                        Journey with us and cycle through the catalogue as you experience the exquisite views.
+                        You may also show cause by donating for your favourite species!
+                        To begin with, enter your name and select a trail.
+                    </span>
+                </div>
+            </div>
+            <div class="rightSide">
+                <form action="GET">
+                    <label for="name" class="name">Enter your name:</label> <br>
+                    <input type="text" class="nameText"> <br>
+                    <label for="trail" class="trail">Select a Trail to continue</label><br>
+                    <input type="radio" name="trail" id="mytrail" value="birds" class="text"><span class="textA"> birds </span> <br>
+                    <input type="radio" name="trail" id="mytrail" value="butterflies" class="text"><span class="textA"> butterflies </span><br>
+                    <input type="radio" name="trail" id="mytrail" value="monkeys" class="text"><span class="textA"> monkeys </span><br>
+                    <input type="radio" name="trail" id="mytrail" value="trees" class="text"><span class="textA"> trees </span><br>
+                    <input type="submit" class="submitBtn" value="Get Started"/>
+                </form>
             </div>
         </div>
-        <div>
-            <form action="GET">
-                <label for="name">Enter your name</label> <br>
-                <input type="text"> <br>
-                <label for="trail">Select a Trail to continue</label><br>
-                <input type="radio" name="trail" id="mytrail" value="birds">birds <br>
-                <input type="radio" name="trail" id="mytrail" value="butterflies">butterflies <br>
-                <input type="radio" name="trail" id="mytrail" value="monkeys">monkeys <br>
-                <input type="radio" name="trail" id="mytrail" value="trees">trees <br>
-                <input type="submit" value="Get Started"/>
-            </form>
-        </div>
+        
     </section>
     <section>
         <div id="trailhead">
