@@ -77,26 +77,30 @@ nav{
     width: 95%;
     margin: auto;
     font-size: 23px;
-    font-weight: bold;
+    font-weight: 700;
+    color: #667618;
 }
 .descA{
     width: 100%;
     padding-bottom: 15px;
 }
 .oneSpecies img{
-    width: 100%;
+    //width: 100%;
     height: 250px;
+    border-radius: 15px;
 }
 .allSpecies{
     width: 95%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     padding: 20px 0 0 0;
     justify-content: space-between;
 }
 .oneSpecies{
-    width: 25%;
+    width: 30%;
     background-color: rgb(217, 217, 217, 0.5);
+    margin-top: 2%;
 }
 .speciesName{
     padding: 15px 10px;
