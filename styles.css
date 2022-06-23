@@ -85,7 +85,7 @@ nav{
     padding-bottom: 15px;
 }
 .oneSpecies img{
-    //width: 100%;
+    /* width: 100%;  when set thisway, stretch and incompatible */
     height: 250px;
     border-radius: 15px;
 }
