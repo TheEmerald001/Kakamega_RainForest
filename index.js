@@ -5,6 +5,9 @@ function renderTrail(animal){
     <img src="${animal.image}" alt="">
     <h5 class="speciesName"> ${animal.name}</h5>
     <p class="specieDescription">${animal.desc}</p>
+    <div class="withBtn">
+        <submit class="submitBtn">Donate</submit>
+    </div>
 </div>
     ` //this is how I would add a single animal
     document.querySelector('#allSpecies').appendChild(show)
