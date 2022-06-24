@@ -1,61 +1,81 @@
 {
-	"animals" : [
+	"birds" : [
 		{
+		"id": 1,
 		"name": "Black Billed Turaco",
 		"image": "https://www.animal.photos/bird2/tur-bbill_files/black-billed2.jpg",
 		"desc": "Spectacular green crested turaco. Shows large crimson wing patches in flight. Found in rainforest and gallery forest. Acts like a typical turaco, bouncing through the trees, and flying occasionally with short bursts of wingbeats and long glides. Call is a gruff, accelerating series of “kow” notes. Similar to Schalow’s and Guinea Turacos, but minimal overlap in range. Crest is shorter than that of Schalow’s Turaco and has a white tip, unlike that of Guinea Turaco."
 		},
 		{
+		"id": 2,
 		"name": "Blue Headed Bee Eater",
 		"image": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/250961761/1200",
 		"desc": "An easily overlooked forest bee-eater found in Central Africa and locally in East Africa, occurring in the forest interior and near forest edge and tree-fall gaps. Dark overall with a bluish to blue-purple head, belly, and tail, a red throat, a dark purplish-black face, a pale azure forehead, and a reddish back. May overlap locally with Blue-moustached Bee-eater in South-West Region, Cameroon, but Blue-headed Bee-eater has a pale forehead and no noticeable eye-line. Calls include a seldom-heard, two-parted 'ji-up!'"
 		},
 		{
+		"id": 3,
 		"name": "Turner's Eremomela",
 		"image": "https://www.oiseaux.net/photos/paul.van.giersbergen/images/eremomele.de.turner.pava.1g.jpg",
 		"desc": "A very small, well-marked warbler. Note the gray upperparts, the rufous forehead, and the white underparts with a black chest band. Found very locally in low- and middle-elevation rainforest, often along the forest edge. Very similar to Rufous-crowned Eremomela, but usually distinguished by range, and also slightly smaller, with less rufous on the crown. Usually in small groups, which frequently join mixed flocks. Inconspicuous vocalizations are high-pitched 'sit' notes, sometimes given singly, and sometimes in a quick series."
-		},
+		}
+	],
+	"monkeys" : [
 		{
+		"id": 1,
 		"name": "White Colobus Monkey",
 		"image": "https://www.awf.org/sites/default/files/styles/species_hero_d_1440x750_/public/SpeciesPage_ColobusMonkey01_Hero.webp?h=ba6751a8&itok=5_Uj8lS0",
 		"desc": "The name 'colobus' is derived from the Greek word for “mutilated,” because unlike other monkeys, colobus monkeys do not have thumbs. Their beautiful black fur strongly contrasts with the long white mantle, whiskers, bushy tail, and beard around the face. The Eastern black-and-white is distinguishable by a U-shaped cape of white hair running from the shoulders to lower back, whereas the Angolan black-and-white has white hairs flaring out only at the shoulders."
 		},
-		{
+		{	
+		"id": 2,
 		"name": "Debrazzar Monkey",
 		"image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_837/https://neprimateconservancy.org/wp-content/uploads/2021/11/de-brazzas-iStock-147791309-resize.jpg",
 		"desc": "Named after explorer Pierre Savorgnan de Brazza, the strikingly beautiful De Brazzas monkey is native to Central Africa. With a distinctive white beard, white belly, speckled grayish coat, and black extremities, the De Brazzas monkey has an elegant appearance. The orange crescent on the forehead, black crown atop their head, and long white stripes on their thighs and rump highlight the unusual beauty of the species. The long black tail is not prehensile, but is useful for balance when climbing trees. Hands and feet have opposable thumbs. Feet are stronger than those of other guenons and are particularly well adapted to walking on forest ground. "
 		},
 		{
+			
+		"id": 3,
 		"name": "Pottos",
 		"image": "https://cdn.britannica.com/03/158403-050-1D10AA79/Potto.jpg?w=690&h=388&c=crop",
 		"desc": "A potto has a long and slender body and a small, arrow-shaped head covered in brownish-gray fur. Its wet nose sticks out prominently at the tip of the “arrow.” Two hairless ears form tiny arches at the top of its head. However, its most striking feature is the eyes—round and bulging vortexes, big and sensitive enough to allow it to see in the dark."
-		},
+		}
+	],
+	"butterflies" : [
 		{
+			
+		"id": 1,
 		"name": "Ochlodes venatus",
 		"image": "http://www.eurobutterflies.com/pics/v/venatus29.jpg",
 		"desc": "A large golden skipper separated from the similar silver spotted skipper H. comma by the lack of silver spots on the underside hindwing found in that species."
 		},
 		{
+		"id": 2,
 		"name": "Borbo borbonica",
 		"image": "http://www.eurobutterflies.com/pics/b/borbonica97.jpg",
 		"desc": "Similar to the the Mediterranean skipper Gegenes nostrodamus with which it can fly. The current species is much larger and has large very clearly defined spots and the underside hindwing is well marked and is a bright yellow-green in fresh specimens particularly females."
 		},
 		{
+		"id": 3,
 		"name": "Kedestes callicles",
 		"image": "http://www.biodiversityexplorer.info/butterflies/hesperiidae/images/Kedestes-callicles-male-uns.jpg",
 		"desc": "edestes callicles, the pale ranger, is a butterfly of the family Hesperiidae. Rare but found in our forest, the wingspan is 27–29 mm for males and 33 mm for females. Adults are on wing from November to April (with a peak from February to March). There is one extended generation per year"
-		},
-		{
+		}
+	],
+	"trees" : [
+		{	
+		"id": 1,
 		"name": "Prunus Africana",
 		"image": "https://tropical.theferns.info/plantimages/sized/8/9/89a037587e538d96e2426ce5c421bda4551cfef4_480px.jpg",
 		"desc": "Prunus africana is a fast-growing, much branched, evergreen tree with a spherical crown; usually growing 10 - 24 metres tall with some specimens reaching 36 metres.Occasionally, as in the lava forest of Kenya, the plant is no more than a shrub 3 - 5 metres tall.The bole has a diameter of up to 1 metre and can be branchless for the first 10 metres. The bark has a very high reputation as a treatment for enlarged prostate in older males. It is harvested in large quantities from the wild, mainly for export. The tree has various other local medicinal uses, and provides a good quality wood that is mainly used locally. aAthough the tree can be very common in parts of its vast range, destructive harvesting of the bark for medicinal use has led to the deaths of a great many trees. Consequently, the tree has been classified as 'Vulnerable' in the IUCN Red List of Threatened Species."
 		},
 		{
+		"id": 2,
 		"name": "Olea Capensis",
 		"image": "https://www.monaconatureencyclopedia.com/wp-content/uploads/2008/08/jpg_Un_Olea_capensis_subsp-_macrocarpa_nel_suo_ambiente_naturale_c_Giuseppe_Mazza.jpg",
 		"desc": "The Olea capensis subsp. macrocarpa (C. H. Wright) I. Verd. (1909) is a tree tall up to about 20 m, even if specimens in the wild may reach the 40 m, with greyish, longitudinally fissured, bark."
 		},
 		{
+		"id": 3,
 		"name": "Maesopsis Emini",
 		"image": "https://indiabiodiversity.org/files-api/api/get/crop/observations//dc2dc6f2-146b-4b2e-8c66-d1171f98e988/860.JPG?h=300",
 		"desc": "30 m high, bark pale brown, furrowed; blaze red, branchlets pubescent. Leaves opposite or subopposite, deccussate; stipules subulate, cauducous; petiole 10-20 mm long, slender, glabrous; lamina 8.5-12 x 2.5-4, ovate-lanceolate, oblong-ovate or lanceolate, base obliquely obtuse, apex acuminate, margin serrate, glabrous, chartaceous; lateral nerves 7-10 pairs, parallel, slender, prominent, intercostae reticulate. Flowers bisexual, greenish-yellow, orange, muricate; seed one."
