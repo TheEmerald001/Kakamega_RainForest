@@ -32,15 +32,15 @@
                 </div>
             </div>
             <div class="rightSide">
-                <form action="GET">
+                <form>
                     <label for="name" class="name">Enter your name:</label> <br>
                     <input type="text" class="nameText"> <br>
                     <label for="trail" class="trail">Select a Trail to continue</label><br>
-                    <input type="radio" name="trail" id="mytrail" value="birds" class="text"><span class="textA"> birds </span> <br>
-                    <input type="radio" name="trail" id="mytrail" value="butterflies" class="text"><span class="textA"> butterflies </span><br>
-                    <input type="radio" name="trail" id="mytrail" value="monkeys" class="text"><span class="textA"> monkeys </span><br>
-                    <input type="radio" name="trail" id="mytrail" value="trees" class="text"><span class="textA"> trees </span><br>
-                    <input type="submit" class="submitBtn" value="Get Started"/>
+                    <input type="radio" name="startTrail" id="trail1" value="birds" class="text"><span class="textA"> birds </span> <br>
+                    <input type="radio" name="startTrail" id="trail2" value="butterflies" class="text"><span class="textA"> butterflies </span><br>
+                    <input type="radio" name="startTrail" id="trail3" value="monkeys" class="text"><span class="textA"> monkeys </span><br>
+                    <input type="radio" name="startTrail" id="trail3" value="trees" class="text"><span class="textA"> trees </span><br>
+                    <input type="submit" class="submitBtn" id= "submitBtn" onclick="trailOn()" value="Get Started"/>
                 </form>
             </div>
         </div>
@@ -48,7 +48,7 @@
     </section>
     <section class="secTwo">
         <div id="trailhead" class="trailhead">
-            Birds In Ndege trail
+            <!-- Birds In Ndege trail -->
         </div>
         <div id="allSpecies" class="allSpecies"></div>
     </section>
