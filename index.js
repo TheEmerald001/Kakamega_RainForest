@@ -6,7 +6,7 @@ function renderTrail(animal){
     <h5 class="speciesName"> ${animal.name}</h5>
     <p class="specieDescription">${animal.desc}</p>
     <div class="withBtn">
-        <submit class="submitBtn">Donate</submit>
+        <button class="submitBtn"> Donate </button>
     </div>
 </div>
     ` //this is how I would add a single animal
