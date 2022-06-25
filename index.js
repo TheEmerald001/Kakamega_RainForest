@@ -8,7 +8,7 @@ const trailOn = function(){
             return  start[i].value; //
         }
     }
-  }
+}
 //console.log(`${trailOn()}`);
 function renderTrail(trailOn){
     let show = document.createElement('div');  // Append comes here//

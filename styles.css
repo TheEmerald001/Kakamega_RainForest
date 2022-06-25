@@ -75,6 +75,7 @@ nav{
     background-color: rgb(102, 118, 24, 0.7);
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .secTwo{
     width: 100%;
