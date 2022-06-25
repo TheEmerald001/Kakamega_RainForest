@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: azure;
+}
 .secOne{
     width: 100%;
     padding: 4em 0;
@@ -65,7 +69,17 @@ nav{
     width: 95%;
     margin: 15px 0 0 0;
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+} .nxtBtn{
+    width: 95%;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 .submitBtn{
     border-style: none;

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Talii Pamoja</title>
 </head>
@@ -35,7 +38,7 @@
                 <form>
                     <label for="name" class="name">Enter your name:</label> <br>
                     <input type="text" class="nameText"> <br>
-                    <label for="trail" class="trail">Select a Trail to continue</label><br>
+                    <label for="trail" class="trail" id="trailSelect">Select a Trail to continue</label><br>
                     <input type="radio" name="startTrail" id="trail1" value="birds" class="text"><span class="textA"> birds </span> <br>
                     <input type="radio" name="startTrail" id="trail2" value="butterflies" class="text"><span class="textA"> butterflies </span><br>
                     <input type="radio" name="startTrail" id="trail3" value="monkeys" class="text"><span class="textA"> monkeys </span><br>
@@ -51,6 +54,9 @@
             <!-- Birds In Ndege trail -->
         </div>
         <div id="allSpecies" class="allSpecies"></div>
+        <div class="nxtBtn">
+            <button class="submitBtn"><a href="#trailSelect">Select Next Trail</a></button>
+        </div>
     </section>
     <section>
         <div class="footer">
