@@ -8,13 +8,8 @@ const trailOn = function(){
             return  start[i].value;
         }
     }
-<<<<<<< HEAD
 }
 //console.log(`${trailOn()}`);
-=======
-  }
-  //This shall show a selected trail items
->>>>>>> b65d3c9a4e0ee9aba9dcfa98e3a51ead6c8836b1
 function renderTrail(trailOn){
     let show = document.createElement('div');
     show.className = "oneSpecies"; //we will style this with css
