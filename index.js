@@ -56,7 +56,7 @@ const pageAction = () =>
         welcomeTourist();
         inputForm.reset();
         //fetch trail data
-        fetch(`http://localhost:3000/${trail}`)
+        fetch(`https://young-refuge-16802.herokuapp.com/${trail}`)
         .then(response => response.json())
         .then(trailData => trailData.forEach(trailOn => renderTrail(trailOn)));
     });
