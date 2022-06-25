@@ -65,36 +65,37 @@ const pageAction = () =>
   //let us now see the page in action, once all is loaded and get events are fired
   const domDataAvailabe = document.addEventListener('DOMContentLoaded', pageAction);
    function run(){
+    setTimeout(showOnlyUnseen, 8000);
+    setTimeout(donatedMullah, 10000);
     return domDataAvailabe;
    };
    run();
   
        //lets add some more js, to allow donations, hiding viewed items and...
-    //    function showOnlyUnseen(){
-    //     let seenItem = document.querySelector('#seenBtn');
-    //     const divSeen = document.querySelector('#seenBtnCarrier');
-    //     let viewedItems = 0;
-    //     seenItem.addEventListener('onclick', ()=> {
-    //         if(divSeen.style.display === 'block'){
-    //             divSeen.style.display = "none"
-    //         }
-    //         viewedItems ++;
-    //         //test in scope
-    //         console.log(`${viewedItems}`)
-    //         return viewedItems;
-    //     })
-    //    }
+       function showOnlyUnseen(){
+        let seenItem = document.querySelector('#seenBtn');
+        const divSeen = document.querySelector('#seenBtnCarrier');
+        let viewedItems = 0;
+        seenItem.addEventListener('click', ()=> {
+            if(divSeen.style.display === 'block'){
+                divSeen.style.display = "none"
+            }
+            console.log('i ran');
+            viewedItems ++;
+            test in scope
+            console.log(`${viewedItems}`)
+            return viewedItems;
+        })
+       }
        
-    //    function donatedMullah(){
-    //     let donated = document.querySelector('#donateBtn');
-    //     let donatedSum = 0;
-    //     donated.addEventListener('onclick', () => {
-    //         alert('Thank You For Your generous Donation!')
-    //         donatedSum += 10;
-    //         //test in scope
-    //         console.log(`${donatedSum}`)
-    //         return donatedSum;
-    //     })
-    //    }
-    //    showOnlyUnseen();
-    //    donatedMullah();
+       function donatedMullah(){
+        let donated = document.querySelector('#donateBtn');
+        let donatedSum = 0;
+        donated.addEventListener('click', () => {
+            alert('Thank You For Your generous Donation!')
+            donatedSum += 10;
+            //test in scope
+            console.log(`${donatedSum}`)
+            return donatedSum;
+        })
+       }
