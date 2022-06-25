@@ -17,9 +17,10 @@ function renderTrail(trailOn){
     <img src="${trailOn.image}" alt="">
     <h5 class="speciesName"> ${trailOn.name}</h5>
     <p class="specieDescription">${trailOn.desc}</p>
-    <div class="withBtn">
-        <button class="submitBtn"> Donate </button>
-    </div>
+    <div class="buttonDiv">
+        <div id="seenBtnCarrier" class="withBtn"><button class="buttons" id="seenBtn"> Seen On Trail!🥳 </button></div>  
+        <div id="donateBtnCarrier" class="withBtn"><button class="buttons" id="donateBtn"> Donate $10 </button></div>
+    <div/>
 </div>
     `;
      //this is how I  add all items now
@@ -61,5 +62,39 @@ const pageAction = () =>
         .then(trailData => trailData.forEach(trailOn => renderTrail(trailOn)));
     });
   };
-  //let us now see the page in action, once all is oaded and events are fired
-   document.addEventListener('DOMContentLoaded', pageAction);
+  //let us now see the page in action, once all is loaded and get events are fired
+  const domDataAvailabe = document.addEventListener('DOMContentLoaded', pageAction);
+   function run(){
+    return domDataAvailabe;
+   };
+   run();
+  
+       //lets add some more js, to allow donations, hiding viewed items and...
+    //    function showOnlyUnseen(){
+    //     let seenItem = document.querySelector('#seenBtn');
+    //     const divSeen = document.querySelector('#seenBtnCarrier');
+    //     let viewedItems = 0;
+    //     seenItem.addEventListener('onclick', ()=> {
+    //         if(divSeen.style.display === 'block'){
+    //             divSeen.style.display = "none"
+    //         }
+    //         viewedItems ++;
+    //         //test in scope
+    //         console.log(`${viewedItems}`)
+    //         return viewedItems;
+    //     })
+    //    }
+       
+    //    function donatedMullah(){
+    //     let donated = document.querySelector('#donateBtn');
+    //     let donatedSum = 0;
+    //     donated.addEventListener('onclick', () => {
+    //         alert('Thank You For Your generous Donation!')
+    //         donatedSum += 10;
+    //         //test in scope
+    //         console.log(`${donatedSum}`)
+    //         return donatedSum;
+    //     })
+    //    }
+    //    showOnlyUnseen();
+    //    donatedMullah();
