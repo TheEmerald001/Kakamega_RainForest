@@ -23,7 +23,7 @@
 		{
 		"id": 1,
 		"name": "White Colobus Monkey",
-		"image": "https://images.pexels.com/photos/7329913/pexels-photo-7329913.jpeg?auto=compress&cs=tinysrgb&w=600",
+		"image": "https://images.pexels.com/photos/7211285/pexels-photo-7211285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"desc": "The name 'colobus' is derived from the Greek word for “mutilated,” because unlike other monkeys, colobus monkeys do not have thumbs. Their beautiful black fur strongly contrasts with the long white mantle, whiskers, bushy tail, and beard around the face. The Eastern black-and-white is distinguishable by a U-shaped cape of white hair running from the shoulders to lower back, whereas the Angolan black-and-white has white hairs flaring out only at the shoulders."
 		},
 		{	
@@ -64,8 +64,8 @@
 	"trees" : [
 		{	
 		"id": 1,
-		"name": "Prunus Africana",
-		"image": "https://tropical.theferns.info/plantimages/sized/8/9/89a037587e538d96e2426ce5c421bda4551cfef4_480px.jpg",
+		"name": "Prunus Domestica",
+		"image": "https://images.unsplash.com/photo-1647420585131-53402d1ac512?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80",
 		"desc": "Prunus africana is a fast-growing, much branched, evergreen tree with a spherical crown; usually growing 10 - 24 metres tall with some specimens reaching 36 metres.Occasionally, as in the lava forest of Kenya, the plant is no more than a shrub 3 - 5 metres tall.The bole has a diameter of up to 1 metre and can be branchless for the first 10 metres. The bark has a very high reputation as a treatment for enlarged prostate in older males. It is harvested in large quantities from the wild, mainly for export. The tree has various other local medicinal uses, and provides a good quality wood that is mainly used locally. aAthough the tree can be very common in parts of its vast range, destructive harvesting of the bark for medicinal use has led to the deaths of a great many trees. Consequently, the tree has been classified as 'Vulnerable' in the IUCN Red List of Threatened Species."
 		},
 		{
