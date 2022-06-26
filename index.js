@@ -99,3 +99,4 @@ const pageAction = () =>
             return donatedSum;
         })
        }
+
