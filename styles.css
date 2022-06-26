@@ -10,7 +10,7 @@ body{
 .secOne{
     width: 100%;
     padding: 4em 0;
-    background-color: rgb(102, 118, 24, 0.2);
+    background-color: white;
 }
 .gradient {
     background-image: linear-gradient(to right,rgb(255, 187, 0),black);
@@ -39,7 +39,7 @@ nav{
 .welcome{
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
     margin: 0 5px 0 4em;
     display: flex;
     align-items: center;
@@ -58,9 +58,9 @@ nav{
 }
 .rightSide{
     width: 40%;
-    padding: 25px 20px;
-    color: white;
-    background-image: url(./logoImg.png);
+    padding: 29px 20px;
+    color: #667618;
+    background-image: url(./Elephant\ rustic\ wild\ animal\ logo\ \(5\).png);
     background-size: cover;
 }
 .submitBtn2{
@@ -76,7 +76,7 @@ nav{
 .nameText{
     border-style: none;
     margin-bottom: 10px;
-    border-bottom: dashed 2px white;
+    border-bottom: dashed 2px #667618;
 }
 .textA{
     font-size: 18px;
@@ -111,7 +111,7 @@ a{
     border-radius: 8px;
     padding: 8px 20px;
     margin: 15px 0 5px 0;
-    background-color: rgb(102, 118, 24, 0.7);
+    background-color: rgb(102, 118, 24);
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -119,6 +119,7 @@ a{
 .secTwo{
     width: 100%;
     padding: 30px 0;
+    background-color: white;
 }
 .trailhead{
     width: 95%;
